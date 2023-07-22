@@ -1,0 +1,2 @@
+* Interface:
+    Interface in ts are used to define the structure of an object.

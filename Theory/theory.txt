@@ -1,0 +1,22 @@
+Q: How to look for bugs in plain js?
+Ans: By executing it.
+    If you want to look for bugs while development, use TYPESCRIPT. The goal of typescript is to help
+    catching errors while development.
+
+
+* install typescript to the system globally (one time setup)
+    - npm i -g typescript ts-node
+    * installing typescript gives you the access to command tsc(typescript compiler)
+    * tsc is to compile typescript code to js code
+    * run tsc --help command to check if typescript is installed correctly
+
+* Running the typescript code
+    - you can not run typescript code on the browser directly. you first have to compile the typescript
+    file into js file then it'll be able to run over the browser.
+    - There are two ways of doing this:
+        1. Compile the typescript file into js file using "tsc [filename with ts extension]". It will generate
+        files in js extension that will be executable by using command "node [filename with js extension]".
+        2. Directly run the command "ts-node [filename with ts extension]". It will serve itself compile
+        and execute the ts file.
+
+    
