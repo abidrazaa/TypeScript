@@ -1,2 +1,8 @@
 * Interface:
     Interface in ts are used to define the structure of an object.
+
+* Type Annotation vs Type Inference:
+    - Type Annotation: Code we add to tell typescript what type of value a variable refer to. (We developers tell 
+    typescript the type).
+    - Type Inference: Typescript tries to figure out what type of value a variable refers to. (Typescript guesses the 
+    type).
